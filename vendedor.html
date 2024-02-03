@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/script.js"></script>
+    <title>Revezamento de Atendentes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #atendenteAtual {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #btnProximo {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="atendenteAtual">Atendente atual: <span id="nomeAtendente"></span></div>
+
+    <button id="btnProximo" onclick="proximoAtendente()">Próximo Atendente</button>
+</body>
+</html>
